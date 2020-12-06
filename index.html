@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dilip Sarvaiya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/pic.ico"  type="image/x-icon" rel="shortcut icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+<style type="text/css">
+.filter-app:hover
+{
+   opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.filter-app:hover.venobox {
+  opacity: 0.3;
+}
+section
+{
+  background-color: #000000;
+}
+</style>
+<script>
+$(document).ready(function(){
+  $("form").submit(function(){
+    var Name=$("#name").val();
+    var Email=$("#email").val();
+    var Subject=$("#subject").val();
+    var Message=$("#message").val();
+    if(Name=="" || Email=="" || Subject=="" || Message=="")
+    {
+        alert("Please fill up all Detail..");
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+  });
+});
+</script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span>Dilip Sarvaiya</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+		  <li><a href="#features">Technologies</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#certificate">Certificates</a></li>
+		   <li><a href="#testimonials">Testimonials</a></li>
+          <li class="drop-down"><a href="#">My Works</a>
+            <ul>
+              <li><a target="_blank" href="http://dilipsarvaiya.epizy.com/tutorials/">PHP Works</a></li>
+               <li><a target="_blank" href="https://github.com/Dilip-Sarvaiya/Android_5th_Sem">Android Works</a></li>
+                <li><a target="_blank" href="https://github.com/Dilip-Sarvaiya/Python_Employee_Project">Python Works</a></li>
+              <li><a target="_blank" href="all_designs.php">My Designs</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+
+          <li class="get-started"><a href="#about">Get Started</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 style=" color: #ffffff;" data-aos="fade-up">Welcome to My Website</h1>
+          <h2 style=" color: #ffffff;" data-aos="fade-up" data-aos-delay="400">I'am working with Website development and Android development</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+  
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style=" color: #ffffff;">About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p style=" color: #ffffff;">
+              Hello, My Name is Dilip Sarvaiya.I'm pursuing B.Tech computer engineering at RK University.
+            </p>
+            <ul>
+              <li style=" color: #ffffff;"><i class="ri-check-double-line"></i> Working with the Website Development</li>
+              <li style=" color: #ffffff;"><i class="ri-check-double-line"></i> Working with an Android application Development</li>
+              <li style=" color: #ffffff;"><i class="ri-check-double-line"></i> Also working with the Python based web application</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p style=" color: #ffffff;">
+             I have also know the some more IT technologies such as C,C++,Java,Python,PHP, Programming. Also,the databases tools such as MySQL,Oracle,Sqlite,phpmyadmin.and also, some of the frameworks such as Codeigniter for PHP,Laravel for PHP,Netbeans for Java.
+            </p>
+           
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="icofont-simple-smile"></i>
+                    <span style=" color: #ffffff;" data-toggle="counter-up">35</span>
+                    <p style=" color: #ffffff;"><strong>Happy Clients</strong> with my services and works..</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="icofont-document-folder"></i>
+                    <span style=" color: #ffffff;" data-toggle="counter-up">45</span>
+                    <p style=" color: #ffffff;"><strong>Projects</strong> are developed </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="icofont-clock-time"></i>
+                    <span style=" color: #ffffff;" data-toggle="counter-up">2</span>
+                    <p style=" color: #ffffff;"><strong>Years of experience</strong> and practice within the projects I have passed.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="icofont-award"></i>
+                    <span style=" color: #ffffff;" data-toggle="counter-up">15</span>
+                    <p style=" color: #ffffff;" ><strong>Awards</strong>, I have participated in the technical events and hackathones. </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style=" color: #ffffff;">Services</h2>
+          <p style=" color: #ffffff;" >Services on that i am working to fulfil the needs of the clients.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Web Designer</a></h4>
+              <p class="description">Design and develop the websites with the client's satisfaction.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Android Development</a></h4>
+              <p class="description">Working with the android application development and develops the android application.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">PHP Development</a></h4>
+              <p class="description">Working with the server-side languages such as PHP and also develops the websites as per clients need.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Python Development</a></h4>
+              <p class="description">I'm working with the python programming and also analyzing the data as well.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
+
+        <div class="row">
+          
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/primary.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Primary Education</a></h5>
+                <p class="card-text">I have completed my primary education from 1 to std-8 at Vadod Primary School</p>
+              
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/10th.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Std-10-GSEB</a></h5>
+                <p class="card-text">I have completed my 10th std at Aashtha School - Jasdan in 2016 with the 97.88 percentile.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/maths.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">12th Science</a></h5>
+                <p class="card-text">I have completed my 12th Science in 2018 at Aashtha Science School - Jasdan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Computer Engineering</a></h5>
+                <p class="card-text">I am pursuing B.Tech Computer engineering in 5th semeser</p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+      </div>
+    </section><!-- End More Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style=" color: #ffffff;">Technologies</h2>
+          <p style=" color: #ffffff;">Technologies on which i'm working and also creates the projects</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+             <i class="fa fa-html5" style="color: red;"></i>
+              <h3><a href="">HTML & CSS</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+             <img style="margin-right: 5px;"height="30" width="45" src="assets/img/php.png">
+              <h3><a href="">PHP</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <h3><a href="">MySQL</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="40" src="assets/img/python.png">
+              <h3><a href="">Python</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="fa fa-android" style="color: #32CD32;"></i>
+              <h3><a href="">Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="40" src="assets/img/java.png">
+              <h3><a href="">Java</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="35" src="assets/img/swift.png">
+              <h3><a href="">Swift</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="35" src="assets/img/laravel.png">
+              <h3><a href="">Laravel</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="30" src="assets/img/codeigniter.png">
+              <h3><a href="">Codeigniter</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+               <i class="fa fa-picture-o" style="color: #000000;"></i>
+              <h3><a href="">Photoshop</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+               <i class="fa fa-apple" style="color: #000000;"></i>
+              <h3><a href="">iOS</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img style="margin-right: 5px;"height="30" width="30" src="assets/img/.netcore.png">
+              <h3><a href="">.NET</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section style="background-color: black;"id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="color: #ffffff;">Testimonials</h2>
+          <p style="color: #ffffff;">Customers, colleagues, and peers who have benefitted from me as a result of the work I did for them.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Nayan Chauhan</h3>
+              <h4>Designer &amp; Photographer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                The video editing and picture editing services provided by him it's awesome. And also, the nice work on the website designing and in development.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
+              <h3>Sandeep Singh</h3>
+              <h4>Designer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                 Good Services and Works in web designing and web development. And the modifications in my website he has done it's great.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Bhavesh Sarvaiya</h3>
+              <h4>Store Owner</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Great work! according to commercial aspects also. I made the website to sell various my store products. And my business has expanded by this.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Kalpesh Sarvaiya</h3>
+              <h4>Freelancer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Photo editing, Android app, and web development for personal portfolio and card designing for our occupation are great.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
+              <h3>Vinay dave</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Drag-and-drop images into posts and pages. Create designer-worthy photo galleries. Embed audio, video, documents, and more over here.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section style="background-color: #000000;"id="certificate" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="color: #ffffff;">Certificates</h2>
+          <p style="color: #ffffff;">Necessary skills for IT Field which I have learned and for it I have got these certificates.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li style="color: #ffffff;" data-filter="*" class="filter-active">All</li>
+        <li style="color: #ffffff;" data-filter=".filter-solo">Sololearn</li>
+              <li style="color: #ffffff;" data-filter=".filter-udemy">Udemy</li>
+              <li style="color: #ffffff;" data-filter=".filter-iit">IIT Bombay</li>
+              <li style="color: #ffffff;" data-filter=".filter-cisco">Cisco</li>
+        <li style="color: #ffffff;" data-filter=".filter-google">Google Analytics Academy</li>
+         <li style="color: #ffffff;" data-filter=".filter-coursera">Coursera</li>
+        <li style="color: #ffffff;" data-filter=".filter-rku">Academic Results</li>
+               <li data-filter=".filter-others">Others</li>
+      </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/C.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/C.jpg" data-gall="portfolioGallery" class="venobox" title="C Programming"> <img src="assets/img/portfolio/C.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/C++.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/C++.jpg" data-gall="portfolioGallery" class="venobox" title="C++ Programming"><img src="assets/img/portfolio/C++.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/HTML.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/HTML.jpg" data-gall="portfolioGallery" class="venobox" title="HTML"><img src="assets/img/portfolio/HTML.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/CSS.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/CSS.jpg" data-gall="portfolioGallery" class="venobox" title="CSS"><img src="assets/img/portfolio/CSS.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Javascript.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Javascript.jpg" data-gall="portfolioGallery" class="venobox" title="Javascript"> <img src="assets/img/portfolio/Javascript.jpg" class="img-fluid" alt=""></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/jquery.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/jquery.jpg" data-gall="portfolioGallery" class="venobox" title="jQuery"><img src="assets/img/portfolio/jquery.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/PHP.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/PHP.jpg" data-gall="portfolioGallery" class="venobox" title="PHP"><img src="assets/img/portfolio/PHP.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/SQL.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/SQL.jpg" data-gall="portfolioGallery" class="venobox" title="SQL"> <img src="assets/img/portfolio/SQL.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-solo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/java_sololearn.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/java_sololearn.jpg" data-gall="portfolioGallery" class="venobox" title="JAVA"> <img src="assets/img/portfolio/java_sololearn.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/python.jpg" data-gall="portfolioGallery" class="venobox" title="Python"> <img src="assets/img/portfolio/python.jpg" class="img-fluid" alt=""></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-google">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/beginner.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/beginner.jpeg" data-gall="portfolioGallery" class="venobox" title="Google Analytics for Begineers"> <img src="assets/img/portfolio/beginner.jpeg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-google">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/data.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/data.jpeg" data-gall="portfolioGallery" class="venobox" title="Introduction to Data Studio"> <img src="assets/img/portfolio/data.jpeg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-google">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/360.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/360.jpeg" data-gall="portfolioGallery" class="venobox" title="Getting Started with Google Analytics 360"> <img src="assets/img/portfolio/360.jpeg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+     <div class="col-lg-4 col-md-6 portfolio-item filter-google">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/poweruser.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/poweruser.jpeg" data-gall="portfolioGallery" class="venobox" title="Advanced Google Analytics"> <img src="assets/img/portfolio/poweruser.jpeg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-cisco">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/C_Cisco.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/C_Cisco.jpg" data-gall="portfolioGallery" class="venobox" title="C Programming"> <img src="assets/img/portfolio/C_Cisco.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-cisco">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cyber.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cyber.jpg" data-gall="portfolioGallery" class="venobox" title="Cybersecurity Essential"> <img src="assets/img/portfolio/cyber.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/C_iit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/C_iit.jpg" data-gall="portfolioGallery" class="venobox" title="C Programming"> <img src="assets/img/portfolio/C_iit.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/C++_iit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/C++_iit.jpg" data-gall="portfolioGallery" class="venobox" title="C++ Programming"> <img src="assets/img/portfolio/C++_iit.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Computer_iit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Computer_iit.jpg" data-gall="portfolioGallery" class="venobox" title="Introduction of Computer"> <img src="assets/img/portfolio/Computer_iit.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Java_iit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Java_iit.jpg" data-gall="portfolioGallery" class="venobox" title="Java Programming"> <img src="assets/img/portfolio/Java_iit.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/libre-calc.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/libre-calc.jpg" data-gall="portfolioGallery" class="venobox" title="Libre Office Calc Training"> <img src="assets/img/portfolio/libre-calc.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/libre-writer.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/libre-writer.jpg" data-gall="portfolioGallery" class="venobox" title="Libre Office writer Training"> <img src="assets/img/portfolio/libre-writer.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/php_iit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/php_iit.jpg" data-gall="portfolioGallery" class="venobox" title="PHP & MySQL"> <img src="assets/img/portfolio/php_iit.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-iit">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rdbms.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/rdbms.jpg" data-gall="portfolioGallery" class="venobox" title="RDBMS"> <img src="assets/img/portfolio/rdbms.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy1.jpg" data-gall="portfolioGallery" class="venobox" title="Small Business Success Preview"> <img src="assets/img/portfolio/Udemy1.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy3.jpg" data-gall="portfolioGallery" class="venobox" title="The Complete Guide to iOS 6 for iPhone"> <img src="assets/img/portfolio/Udemy3.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy4.jpg" data-gall="portfolioGallery" class="venobox" title="Getting started with Gmail,Google Drive,Docs"> <img src="assets/img/portfolio/Udemy4.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>  
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy5.jpg" data-gall="portfolioGallery" class="venobox" title="Programming in Pashto"> <img src="assets/img/portfolio/Udemy5.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy6.jpg" data-gall="portfolioGallery" class="venobox" title="Yoga for Desk workers"> <img src="assets/img/portfolio/Udemy6.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy7.jpg" data-gall="portfolioGallery" class="venobox" title="Great Mack Keyboard Shortcut keys"> <img src="assets/img/portfolio/Udemy7.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy8.jpg" data-gall="portfolioGallery" class="venobox" title="HTML & CSS for Begineers"> <img src="assets/img/portfolio/Udemy8.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy9.jpg" data-gall="portfolioGallery" class="venobox" title="Word 2016 Office Ultimate Basics for beginners"> <img src="assets/img/portfolio/Udemy9.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       <div class="col-lg-4 col-md-6 portfolio-item filter-udemy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Udemy10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Udemy10.jpg" data-gall="portfolioGallery" class="venobox" title="Excel Dashboards" > <img src="assets/img/portfolio/Udemy10.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-rku">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/1st.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/1st.jpg" data-gall="portfolioGallery" class="venobox" title="Result of 1st Senester " > <img src="assets/img/portfolio/1st.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-rku">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/2nd.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/2nd.jpg" data-gall="portfolioGallery" class="venobox" title="Result of 2nd Semester" > <img src="assets/img/portfolio/2nd.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-rku">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/3rd.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/3rd.jpg" data-gall="portfolioGallery" class="venobox" title="Result of 3rd Semester" > <img src="assets/img/portfolio/3rd.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rku">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/4th.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/4th.jpg" data-gall="portfolioGallery" class="venobox" title="Result of 4th Semester" > <img src="assets/img/portfolio/4th.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/os_coursera.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/os_coursera.jpg" data-gall="portfolioGallery" class="venobox" title="Operating Systems and You: Becoming a Power User" > <img src="assets/img/portfolio/os_coursera.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/json.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/json.jpg" data-gall="portfolioGallery" class="venobox" title="JavaScript, jQuery, and JSON" > <img src="assets/img/portfolio/json.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+           <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Coursera_java.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Coursera_java.jpg" data-gall="portfolioGallery" class="venobox" title="Java Programming: Solving Problems with Software" > <img src="assets/img/portfolio/Coursera_java.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python_everybody.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/python_everybody.jpg" data-gall="portfolioGallery" class="venobox" title="Programming for Everybody (Getting Started with Python)" > <img src="assets/img/portfolio/python_everybody.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python_data_structure.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/python_data_structure.jpg" data-gall="portfolioGallery" class="venobox" title="Python Data Structures" > <img src="assets/img/portfolio/python_data_structure.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coursera">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Coursera_java2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Coursera_java2.jpg" data-gall="portfolioGallery" class="venobox" title="Java Programming: Arrays, Lists, and Structured Data" > <img src="assets/img/portfolio/Coursera_java2.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Dilip_j_sarvaiya-lalimber.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Dilip_j_sarvaiya-lalimber.jpg" data-gall="portfolioGallery" class="venobox" title="Online Exempore Competition" > <img src="assets/img/portfolio/Dilip_j_sarvaiya-lalimber.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/hackathone.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/hackathone.jpg" data-gall="portfolioGallery" class="venobox" title="Smart City Hackathone-Rajkot 2019" > <img src="assets/img/portfolio/hackathone.jpg" class="img-fluid" alt=""></a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+      </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section style="background-color: #000000;"id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="color: #ffffff;">Contact Us</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3 style="color: #ffffff;">Dilip Sarvaiya</h3>
+              <p></p>
+              <div class="social-links">
+                <a href="https://twitter.com/DilipJSarvaiya1" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/dilip.sarvaiya.700" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/dilip_sarvaiya_700/" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/dilip-sarvaiya-55461817b/" class="linkedin"><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              <div>
+                <i class="ri-map-pin-line"></i>
+                <p style="color: #ffffff;">Gangabhuvan, Pramukh Park<br>Jasdan, Guj, 360050</p>
+              </div>
+
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p style="color: #ffffff;">dilipsarvaiya700@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="ri-phone-line"></i>
+                <p style="color: #ffffff;">+91 89054 55955</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="forms/contact.php" method="post" role="form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+               <div class="text-center"><input type="submit" name="submit" value="Send Message" class="btn btn-primary" /></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Dilip Sarvaiya</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="">Dilip Sarvaiya</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="index.html" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+           
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
